@@ -49,16 +49,16 @@ def phone_read():
     resalt = cur.fetchall()
     con.close()
     return resalt
-#
-#
-# @app.route('/phone/updata')
-# def phone_update():
-#     return 'phone_update'
-#
-#
-# @app.route('phone/delete')
-# def phone_delete():
-#     return 'phone_delete'
+
+
+@app.route('/phone/updata')
+def phone_update():
+    return 'phone_update'
+
+
+@app.route('phone/delete')
+def phone_delete():
+    return 'phone_delete!!!'
 
 
 if __name__ == '__main__':
