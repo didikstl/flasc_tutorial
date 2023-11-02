@@ -1,0 +1,8 @@
+venv
+*.db
+.idea/
+__pycache__/
+konspekt.py
+main_old.py
+utils_old.py
+README.md
