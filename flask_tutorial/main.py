@@ -58,7 +58,7 @@ def phone_update():
 
 @app.route('phone/delete')
 def phone_delete():
-    return 'phone_delete'
+    return 'phone_delete!'
 
 
 if __name__ == '__main__':
