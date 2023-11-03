@@ -1,5 +1,6 @@
 def create_table() -> None:
     import sqlite3
+
     con = sqlite3.connect('example.db')
     cur = con.cursor()
 
@@ -15,4 +16,3 @@ def create_table() -> None:
 
     con.commit()
     con.close()
-    return 'phone_create'
